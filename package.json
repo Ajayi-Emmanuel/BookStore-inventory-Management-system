@@ -1,0 +1,30 @@
+{
+  "name": "online-bookstore-inventory-management-system",
+  "version": "1.0.0",
+  "description": "Online Bookstore Inventory Management System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mysql2": "^3.9.3",
+    "nanoid": "^5.0.6",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1",
+    "sequelize": "^6.37.2"
+  },
+  "devDependencies": {
+    "node": "^21.6.2",
+    "nodemon": "^3.1.0"
+  }
+}
